@@ -17,7 +17,7 @@ import android.widget.Toast;
  * The main activity for this project. 
  * 
  * Action bar is hidden programmatically and all input validation is performed in the sign-in form's 
- * onclick event. All errors are displayed as Toasts to the user. This is not ideal, since they display over the keyboard. 
+ * onclick event. 
  * 
  * @author Nik
  *
@@ -66,22 +66,21 @@ public class LoginActivity extends Activity {
 				 * and that it is a valid email address in the form user@domain.com
 				 */
 				
-				//TODO - change from toasts to something more easily seen by the user
 				
 				if(emailAddressStr.isEmpty()) {
 					//display error stating that email address is required
-					Toast.makeText(LoginActivity.this, R.string.error_email_required, Toast.LENGTH_SHORT).show();
+					emailAddressField.setError(getString(R.string.error_email_required));
 					return;
 					
 				} else if(!emailAddressMatcher.matches()) {
         			//display error stating that email address must be in user@domain.com format
-        			Toast.makeText(LoginActivity.this, R.string.error_email_format, Toast.LENGTH_SHORT).show();
+					emailAddressField.setError(getString(R.string.error_email_format));
         			return;
 				}
 				
         		if(passwordStr.isEmpty()) {
         			//display error stating that password is required
-        			Toast.makeText(LoginActivity.this, R.string.error_password_required , Toast.LENGTH_SHORT).show();
+        			passwordField.setError(getString(R.string.error_password_required));
         			return;
         		}
 				

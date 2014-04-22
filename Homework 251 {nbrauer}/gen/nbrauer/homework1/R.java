@@ -26,10 +26,10 @@ public final class R {
         public static final int button_unpushed=0x7f020002;
         public static final int field_selector=0x7f020003;
         public static final int ic_launcher=0x7f020004;
-        public static final int inputfield_green=0x7f020005;
-        public static final int inputfield_neutral=0x7f020006;
-        public static final int inputfield_normal=0x7f020007;
-        public static final int nologo=0x7f020008;
+        public static final int ic_nologo=0x7f020005;
+        public static final int inputfield_green=0x7f020006;
+        public static final int inputfield_neutral=0x7f020007;
+        public static final int inputfield_normal=0x7f020008;
     }
     public static final class id {
         public static final int action_settings=0x7f080006;
