@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="nbrauer.homework252.MainActivity" >
+    
+    <item 
+        android:id="@+id/menu_delete_task"
+        android:icon="@drawable/ic_action_discard"
+        android:showAsAction="ifRoom"    	
+        />
+
+</menu>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Homework 252</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="empty_list">No Entries</string>
+    <string name="hint_task_body">Enter details about your task</string>
+    <string name="hint_task_title">Task Title</string>
+    <string name="select_or_add_a_task">Select or add a task</string>
+    <string name="tasks_title"> Tasks </string>
+</resources>

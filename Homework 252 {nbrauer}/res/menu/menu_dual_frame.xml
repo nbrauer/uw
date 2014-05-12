@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="nbrauer.homework252.MainActivity" >
+    
+    <item 
+        android:id="@+id/menu_dual_frame_create_task"
+    	android:icon="@drawable/ic_action_new"
+    	android:showAsAction="ifRoom"
+        />
+    
+    <item 
+        android:id="@+id/menu_dual_frame_delete_task"
+        android:icon="@drawable/ic_action_discard"
+        android:showAsAction="ifRoom"    	
+        />
+
+</menu>
