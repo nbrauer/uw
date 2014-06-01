@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Homework 253</string>
+    <string name="action_settings">Settings</string>
+    <string name="label_buttonstart"> Start </string>
+    <string name="label_buttonstop"> Stop </string>
+  	<string name="notification_alarm_content_text">Application is Beeping - Select to Open </string>
+  
+
+</resources>
